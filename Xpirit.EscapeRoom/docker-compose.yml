@@ -1,0 +1,23 @@
+version: "3.4"
+
+services:
+  escaperoom:
+    image: escaperoom
+    build: .
+    ports:
+      - "5120:80"
+    depends_on:
+      - mongo
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  mongo:
+    container_name: mongodb
+    image: mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - data-volume:/data/db
+
+volumes:
+  data-volume:

@@ -1,4 +1,39 @@
-# The Source code of the Xpirit|Xebia Techorama Escape Room will become available after the Conference (12th of October)
+# Techorama-Escape-Room
 
-In the meanwhile ... if you're reading this during the Techorama Netherlands conference, come and stop by the abandoned airplane and play the Escape
-Room :-)
+## Run app build
+
+1. Change version in pubspec.yaml
+
+2. Create a Github Release
+
+```sh
+git tag v<Version in pubspec>
+git push --tags
+```
+
+## Run back-end
+
+```sh
+cd ./Xpirit.EscapeRoom
+docker compose up --build
+```
+
+## Reverse Proxy to localhost API
+
+Authenticate with ngrok
+
+```sh
+ngrok authtoken <Token>
+```
+
+Create reverse proxy to localhost
+
+```sh
+ngrok http 5120 --domain xpiritescaperoom.ngrok.dev
+```
+
+## Build IOS App
+
+```sh
+flutter build ipa
+```

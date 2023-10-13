@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpirit.EscapeRoom.Api", "Xpirit.EscapeRoom.Api\Xpirit.EscapeRoom.Api.csproj", "{6FF0D6BC-EC8B-4645-979A-04C9E5E72DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpirit.EscapeRoom.IntegrationTests", "Xpirit.EscapeRoom.IntegrationTests\Xpirit.EscapeRoom.IntegrationTests.csproj", "{6ECA7048-3021-4766-ABA9-5323C474FB80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpirit.EscapeRoom.Api.Tests", "Xpirit.EscapeRoom.Api.Tests\Xpirit.EscapeRoom.Api.Tests.csproj", "{B0D5C71C-6F48-47D2-95C6-BE34582C6AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpirit.EscapeRoom.Persistence", "Xpirit.EscapeRoom.Persistence\Xpirit.EscapeRoom.Persistence.csproj", "{6A8DEB62-B0B4-438B-90B8-FE47C509651D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpirit.EscapeRoom.Domain", "Xpirit.EscapeRoom.Domain\Xpirit.EscapeRoom.Domain.csproj", "{2277530D-2917-47CE-A56F-4C7A6378EFBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpirit.EscapeRoom.Broker", "Xpirit.EscapeRoom.Broker\Xpirit.EscapeRoom.Broker.csproj", "{FE67D0CA-3E8A-415E-9E0A-DF6B8F5D93B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FF0D6BC-EC8B-4645-979A-04C9E5E72DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF0D6BC-EC8B-4645-979A-04C9E5E72DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF0D6BC-EC8B-4645-979A-04C9E5E72DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF0D6BC-EC8B-4645-979A-04C9E5E72DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ECA7048-3021-4766-ABA9-5323C474FB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECA7048-3021-4766-ABA9-5323C474FB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECA7048-3021-4766-ABA9-5323C474FB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECA7048-3021-4766-ABA9-5323C474FB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D5C71C-6F48-47D2-95C6-BE34582C6AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D5C71C-6F48-47D2-95C6-BE34582C6AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D5C71C-6F48-47D2-95C6-BE34582C6AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D5C71C-6F48-47D2-95C6-BE34582C6AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8DEB62-B0B4-438B-90B8-FE47C509651D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8DEB62-B0B4-438B-90B8-FE47C509651D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8DEB62-B0B4-438B-90B8-FE47C509651D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8DEB62-B0B4-438B-90B8-FE47C509651D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2277530D-2917-47CE-A56F-4C7A6378EFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2277530D-2917-47CE-A56F-4C7A6378EFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2277530D-2917-47CE-A56F-4C7A6378EFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2277530D-2917-47CE-A56F-4C7A6378EFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE67D0CA-3E8A-415E-9E0A-DF6B8F5D93B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE67D0CA-3E8A-415E-9E0A-DF6B8F5D93B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE67D0CA-3E8A-415E-9E0A-DF6B8F5D93B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE67D0CA-3E8A-415E-9E0A-DF6B8F5D93B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
